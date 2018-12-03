@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ post?.text_title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="{{ post?.fb_og_image }}" *ngIf="post?.fb_og_image != null && post?.fb_og_image != undefined ">
+</div>
+<h2>{{ post?.fb_og_description }} </h2>
